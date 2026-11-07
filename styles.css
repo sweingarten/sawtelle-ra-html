@@ -148,3 +148,14 @@ footer { border-top: 1px solid var(--line); padding-block: 40px; font-size: 15px
  .roles-grid { grid-template-columns: minmax(0, 1fr); }
  .role-card { padding: 24px; }
 }
+
+/* Shareable petition URL and adjacent copy action. */
+.petition-share { display: flex; align-items: center; gap: 16px; padding: 10px 10px 10px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.petition-share a { flex: 1; min-width: 0; overflow-wrap: anywhere; font-size: 16px; }
+.petition-share button { flex-shrink: 0; padding: 12px 18px; }
+.share-status { font-size: 14px; margin: 8px 0 0; min-height: 23px; }
+@media (max-width: 480px) {
+ .petition-share { gap: 10px; padding-left: 12px; }
+ .petition-share a { font-size: 14px; }
+ .petition-share button { padding: 12px; font-size: 14px; }
+}
