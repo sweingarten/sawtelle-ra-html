@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Thank you — SRA</title><link rel="stylesheet" href="styles.css"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<!-- SHARED HEADER: change logo and navigation here. Repeat your final changes across pages. -->
+<header><div class="wrap header-inner"><a class="logo" href="index.html" aria-label="SRA home"><img src="assets/logo.svg"/><strong>SRA</strong><span>SAWTELLE RESIDENTS ASSOCIATION</span></a><nav aria-label="Main navigation"><a href="campaigns.html">Campaigns</a><a href="get-involved.html">Get involved</a><a href="about.html">About</a></nav><div class="utility"><a href="tenant-help.html">Tenant help</a> &nbsp; <span class="nav-language"><select id="nav-language"><option value="en">English</option><option value="es">Español</option><option value="tl">Tagalog</option><option value="ko">한국어</option><option value="zh">中文</option></select></span></div></div></header>
+<!-- EDIT PAGE CONTENT BELOW -->
+<main id="main" class="wrap"><div class="narrow">
+<h1>Thank you for signing!</h1>
+<p class="lead">Help this campaign reach more people. Forward the petition to anyone you know in LA and invite them to add their voice.</p>
+<div class="actions"><a class="button" id="share-email" href="mailto:?subject=Add%20your%20voice%20to%20this%20LA%20petition">Forward the petition by email</a><a href="campaign.html">Return to the petition</a></div>
+<p class="campaign-meta muted">Design preview: no signature has been sent or stored.</p>
+<section class="section"><h2>Want to do more?</h2><p>Help neighbors learn about the campaign and get involved.</p><a class="button" href="get-involved.html">Volunteer with us</a></section>
+</div></main>
+<footer><div class="wrap footer-inner"><div><strong>Sawtelle Residents Association</strong></div><div><a href="about.html#contact">Contact</a> &nbsp; <a href="tenant-help.html">Tenant help</a> &nbsp; <a href="index.html">Home</a></div></div></footer><script>
+const petitionUrl = new URL('campaign.html', window.location.href);
+document.getElementById('share-email').href = 'mailto:?subject=' + encodeURIComponent('Add your voice to this LA petition') + '&body=' + encodeURIComponent('Hi, I thought you might be interested in this LA petition. Read about the campaign and add your voice here: ' + petitionUrl.href);
+</script></body></html>

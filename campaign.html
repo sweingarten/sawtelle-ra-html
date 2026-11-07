@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lorem ipsum campaign — SRA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><a class="skip" href="#main">Skip to content</a>
+    <!-- SHARED HEADER: change logo and navigation here. Repeat your final changes across pages. -->
+    <header>
+        <div class="wrap header-inner"><a class="logo" href="index.html" aria-label="SRA home"><img
+                    src="assets/logo.svg" /><strong>SRA</strong><span>SAWTELLE RESIDENTS ASSOCIATION</span></a>
+            <nav aria-label="Main navigation"><a href="campaigns.html">Campaigns</a><a href="get-involved.html">Get
+                    involved</a><a href="about.html">About</a></nav>
+            <div class="utility"><a href="tenant-help.html">Tenant help</a> &nbsp; <span class="nav-language"><select
+                        id="nav-language">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="tl">Tagalog</option>
+                        <option value="ko">한국어</option>
+                        <option value="zh">中文</option>
+                    </select></span></div>
+        </div>
+    </header>
+    <!-- EDIT PAGE CONTENT BELOW -->
+    <main id="main" class="wrap">
+        <p class="crumb"><a href="campaigns.html">Campaigns</a> / Lorem ipsum</p>
+        <section class="" aria-labelledby="campaign-name">
+            <h1 id="campaign-name">Example Petition Campaign</h1>
+            <div class="actions"><a class="button" href="#sign">Sign The Petition</a></div>
+        </section>
+        <section class="section " aria-labelledby="details-heading">
+            <h3>What's happening</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <h3>Why this matters</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <h3>What we are asking for</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+
+            <div class="actions"><a class="button" href="#sign">Sign The Petition</a></div>
+        </section>
+        <section class="section " aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Resources to learn more</h2>
+            <ul class="link-list">
+                <li><a href="https://planning.lacity.gov/" target="_blank" rel="noopener">Los Angeles City Planning</a>
+                </li>
+                <li><a href="https://lacity.gov/neighborhoodinfo" target="_blank" rel="noopener">Find your council
+                        district and neighborhood information</a></li>
+            </ul>
+        </section>
+        <section class="section " id="sign" aria-labelledby="sign-heading">
+            <h2 id="sign-heading">Sign the petition</h2>
+            <form id="petition-form" class="petition-form card">
+                <p class="form-intro">Choose your petition version, review the letter, and add your signature. All fields are required unless marked optional.</p>
+                <fieldset>
+                    <legend>Your petition</legend>
+                    <div class="petition-fields">
+                        <div class="field"><label for="district">Council district</label><select id="district" required>
+                                <option value="">Choose your district</option>
+                                <option value="1">CD 1</option>
+                                <option value="2">CD 2</option>
+                                <option value="3">CD 3</option>
+                                <option value="4">CD 4</option>
+                                <option value="5">CD 5</option>
+                                <option value="6">CD 6</option>
+                                <option value="7">CD 7</option>
+                                <option value="8">CD 8</option>
+                                <option value="9">CD 9</option>
+                                <option value="10">CD 10</option>
+                                <option value="11">CD 11</option>
+                                <option value="12">CD 12</option>
+                                <option value="13">CD 13</option>
+                                <option value="14">CD 14</option>
+                                <option value="15">CD 15</option>
+                            </select><a class="field-help" href="https://lacity.gov/neighborhoodinfo" target="_blank" rel="noopener">Find your council district</a></div>
+                        <div class="field"><label for="audience">Tenant or resident</label><select id="audience"
+                                required>
+                                <option value="">Choose your petition version</option>
+                                <option value="tenant">Tenant</option>
+                                <option value="resident">Resident</option>
+                            </select></div>
+                    </div>
+                    <p id="petition-version" class="petition-status" role="status" aria-live="polite">Select both options to load your petition.</p>
+                    <details id="full-letter">
+                        <summary>Read the petition letter</summary>
+                        <article class="letter" id="letter"><p>Your petition letter will appear here once you select your district and petition version.</p></article>
+                    </details>
+                </fieldset>
+                <fieldset>
+                    <legend>Your signature</legend>
+                    <div class="petition-fields">
+                        <div class="field"><label for="first">First name</label><input id="first" autocomplete="given-name" required></div>
+                        <div class="field"><label for="last">Last name</label><input id="last" autocomplete="family-name" required></div>
+                        <div class="field"><label for="email">Email address</label><input id="email" type="email" autocomplete="email" required></div>
+                        <div class="field"><label for="postal">Postal code</label><input id="postal" autocomplete="postal-code" required></div>
+                    </div>
+                    <label class="check"><input type="checkbox" id="updates">Send me campaign updates (optional)</label>
+                </fieldset>
+                <div class="petition-submit">
+                    <button type="submit">Sign the petition</button>
+                    <p class="muted">Design preview: no signature is sent or stored.</p>
+                </div>
+                <noscript><p>Enable JavaScript to preview district-specific petition versions.</p></noscript>
+            </form>
+        </section>
+        <section class="section " aria-labelledby="volunteer-heading">
+            <h2 id="volunteer-heading">Help move this campaign forward</h2>
+            <p>Volunteer to spread the word, help neighbors understand the campaign, and connect more people with the
+                petition.</p>
+            <a class="button" href="get-involved.html">Volunteer with us</a>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap footer-inner">
+            <div><strong>Sawtelle Residents Association</strong></div>
+            <div><a href="about.html#contact">Contact</a> &nbsp; <a href="tenant-help.html">Tenant help</a> &nbsp; <a
+                    href="index.html">Home</a></div>
+        </div>
+    </footer>
+    <script src="campaign.js"></script>
+</body>
+
+</html>
